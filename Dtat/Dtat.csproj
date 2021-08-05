@@ -12,6 +12,7 @@
 		<RepositoryUrl>https://github.com/DTAT-Framework/DTAT</RepositoryUrl>
 		<Description>Dariush Tasdighi Framework</Description>
 		<PackageTags>DTAT,Library,Framework,DDD</PackageTags>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 </Project>
