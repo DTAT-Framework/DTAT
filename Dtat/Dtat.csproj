@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>DTAT</PackageId>
+    <Authors>Mr. Dariush Tasdighi</Authors>
+    <Company>DTAT</Company>
+    <Product>DTAT</Product>
+    <Copyright>2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://DTAT.ir</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DTAT-Framework/DTAT</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
