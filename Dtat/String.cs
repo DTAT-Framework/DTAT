@@ -8,18 +8,13 @@
 
 		public static string Fix(string text)
 		{
-			if (text is null)
+			if (string.IsNullOrWhiteSpace(text))
 			{
 				return null;
 			}
 
 			text =
 				text.Trim();
-
-			if (text == string.Empty)
-			{
-				return null;
-			}
 
 			while (text.Contains("  "))
 			{
