@@ -66,7 +66,7 @@ namespace Dtat.Net
 		}
 
 		public static string Format
-			(string ipV4Address, char padLeftCharacter = '_')
+			(string ipV4Address, char padLeftCharacter = '0')
 		{
 			// **************************************************
 			string value =

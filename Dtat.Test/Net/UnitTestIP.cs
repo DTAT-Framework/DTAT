@@ -136,7 +136,7 @@ namespace Dtat.Test.Net
 				Dtat.Net.IPAddress.Format
 				(ipV4Address: "    :    :    :    1    ");
 
-			Xunit.Assert.Equal(expected: "__0.__0.__0.__1", actual: actual);
+			Xunit.Assert.Equal(expected: "000.000.000.001", actual: actual);
 		}
 
 		[Xunit.Fact]
@@ -144,9 +144,9 @@ namespace Dtat.Test.Net
 		{
 			var actual =
 				Dtat.Net.IPAddress.Format
-				(ipV4Address: "    :    :    :    1    ", padLeftCharacter: '0');
+				(ipV4Address: "    :    :    :    1    ", padLeftCharacter: '_');
 
-			Xunit.Assert.Equal(expected: "000.000.000.001", actual: actual);
+			Xunit.Assert.Equal(expected: "__0.__0.__0.__1", actual: actual);
 		}
 
 		[Xunit.Fact]

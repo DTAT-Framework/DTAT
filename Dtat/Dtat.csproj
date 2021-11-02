@@ -13,7 +13,7 @@
 		<Description>Dariush Tasdighi Framework</Description>
 		<PackageTags>String,IP,IPAddress</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<PackageIcon>DTAT03.png</PackageIcon>
 		<PackageIconUrl />
 	</PropertyGroup>
