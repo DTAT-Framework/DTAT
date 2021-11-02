@@ -11,9 +11,9 @@
 		<PackageProjectUrl>https://DTAT.ir</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/DTAT-Framework/DTAT</RepositoryUrl>
 		<Description>Dariush Tasdighi Framework</Description>
-		<PackageTags>String,IP</PackageTags>
+		<PackageTags>String,IP,IPAddress</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<PackageIcon>DTAT03.png</PackageIcon>
 		<PackageIconUrl />
 	</PropertyGroup>

@@ -252,7 +252,7 @@ namespace Dtat.Test.Net
 				Dtat.Net.IPAddress.ToNumber
 				(ipV4Address: "    :    :    :    1    ");
 
-			Xunit.Assert.Equal(expected: 1, actual: actual);
+			Xunit.Assert.Equal(expected: (uint)1, actual: actual);
 		}
 
 		[Xunit.Fact]
@@ -262,7 +262,7 @@ namespace Dtat.Test.Net
 				Dtat.Net.IPAddress.ToNumber
 				(ipV4Address: "0.0.0.1");
 
-			Xunit.Assert.Equal(expected: 1, actual: actual);
+			Xunit.Assert.Equal(expected: (uint)1, actual: actual);
 		}
 
 		[Xunit.Fact]

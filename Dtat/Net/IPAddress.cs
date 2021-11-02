@@ -99,7 +99,7 @@ namespace Dtat.Net
 			return result;
 		}
 
-		public static int? ToNumber(string ipV4Address)
+		public static uint? ToNumber(string ipV4Address)
 		{
 			// **************************************************
 			string value =
@@ -144,7 +144,7 @@ namespace Dtat.Net
 					ipAddress.GetAddressBytes().Reverse().ToArray();
 
 				var result =
-					System.BitConverter.ToInt32(value: bytes, startIndex: 0);
+					System.BitConverter.ToUInt32(value: bytes, startIndex: 0);
 
 				return result;
 			}
