@@ -2,9 +2,9 @@
 
 namespace Dtat.Net
 {
-	public static class IPAddress
+	public static class IpAddress
 	{
-		static IPAddress()
+		static IpAddress()
 		{
 		}
 
@@ -44,17 +44,20 @@ namespace Dtat.Net
 				var part =
 					parts[index].PadLeft(totalWidth: 1, '0');
 
+				int partInt;
+
 				// باید همه اجزاء عددی باشند
 				try
 				{
-					System.Convert.ToInt32(part);
+					partInt =
+						System.Convert.ToInt32(part);
 				}
 				catch
 				{
 					return null;
 				}
 
-				result += part;
+				result += partInt;
 
 				if (index != parts.Length - 1)
 				{

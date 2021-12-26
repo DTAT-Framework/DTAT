@@ -13,15 +13,16 @@
 		<Description>Dariush Tasdighi Framework</Description>
 		<PackageTags>String,IP,IPAddress</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<PackageIcon>DTAT03.png</PackageIcon>
 		<PackageIconUrl />
+		<PackageReleaseNotes>Change IpAddress Class</PackageReleaseNotes>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Include="C:\Users\dariu\OneDrive\Pictures\DTAT\DTAT03.png">
+	  <None Update="DTAT03.png">
 	    <Pack>True</Pack>
-	    <PackagePath></PackagePath>
+	    <PackagePath>\</PackagePath>
 	  </None>
 	</ItemGroup>
 
